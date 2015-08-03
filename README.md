@@ -2,8 +2,9 @@
 Small Golang Library for Simplifying the Creation of Timestamps and Datetimes
 
 Intended use of this library is two fold:
-1. Reduced code since calls to get a timestamp or datetime become short 1-liners.
-2. Reduced formatting mistakes since there is no memorization of formats.
+
+- Reduced code since calls to get a timestamp or datetime become short 1-liners.
+- Reduced formatting mistakes since there is no memorization of formats.
 ---
 
 ### Unix()
