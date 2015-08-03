@@ -1,4 +1,4 @@
-# timestamps
+# timestamps.go
 Small Golang Library for Simplifying the Creation of Timestamps and Datetimes
 
 Intended use of this library is two fold:
