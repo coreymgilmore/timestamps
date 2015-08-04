@@ -9,6 +9,9 @@ package timestamps
 
 import "time"
 
+//*********************************************************************************************************************************
+//FUNCS
+
 //GENERATE UNIX TIMESTAMP
 //note: this returns an int64!
 func Unix() int64 {
