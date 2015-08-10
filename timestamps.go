@@ -13,11 +13,10 @@ import "time"
 //FUNCS
 
 //GENERATE UNIX TIMESTAMP
-//note: this returns an int64!
-func Unix() int64 {
+func Unix() int {
 	t := time.Now()
 	s := t.Unix()
-	return s
+	return int(s)
 }
 
 //GENERATE ISO8601 DATETIME
