@@ -24,6 +24,6 @@ func Unix() int64 {
 //format: YY-MM-DDTHH:MM:SS.mmmZ
 func ISO8601() string {
 	t := time.Now().UTC()
-	s := t.Format("2006-02-01T15:04:05.000Z")
+	s := t.Format("2006-01-02T15:04:05.000Z")
 	return s
 }
